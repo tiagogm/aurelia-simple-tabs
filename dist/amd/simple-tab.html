@@ -1,5 +1,5 @@
-<template bindable="title, active">
-  <div class="simple-tab" title="${title}">
+<template bindable="title, active" title.bind="title">
+  <div class="simple-tab">
     <slot></slot>
   </div>
 </template>
