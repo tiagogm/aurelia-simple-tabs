@@ -3,8 +3,8 @@
 ### A barebones Aurelia tabs component
 
 
-<img src="demo.png" width="400">  <br/>
-<img src="demo.gif" width="400" alt="Logo"/>
+<img src="https://raw.githubusercontent.com/TGMorais/aurelia-simple-tabs/master/demo.png" width="400">  <br/>
+<img src="https://raw.githubusercontent.com/TGMorais/aurelia-simple-tabs/master/demo.gif" width="400" alt="Logo"/>
 
 ### Install
 
