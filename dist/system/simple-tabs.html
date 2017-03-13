@@ -1,0 +1,19 @@
+<template>
+  <require from="./simple-tabs.css"></require>
+
+  <div class="simple-tabs">
+    <div class="tabs-headers">
+      <ul>
+        <li class="tab-header" repeat.for="header of tabsHeaders"
+            data-id="$index" css.bind="header.css" click.delegate="changeTab($index)" data-active.bind="$index === activeTabIdx">
+          <span title="${header.title}">${header.title}</span>
+        </li>
+      </ul>
+      <div class="slide" css.bind="slideCss"></div>
+    </div>
+
+    <div class="tab-slots">
+      <slot></slot>
+    </div>
+  </div>
+</template>

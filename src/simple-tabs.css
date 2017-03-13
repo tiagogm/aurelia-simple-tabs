@@ -1,0 +1,51 @@
+simple-tabs .tabs-headers {
+  position: relative;
+}
+
+simple-tabs .tabs-headers  ul{
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+simple-tabs .tab-header {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  color: #a2a2a2;
+}
+
+simple-tabs .tab-header:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+simple-tabs .tab-header[data-active=true] {
+  color: #000;
+}
+
+simple-tabs .tab-slots {
+  position: relative;
+  margin: 10px 0;
+}
+
+simple-tabs .slide {
+  position: absolute;  
+  bottom: 0;
+  background: #42a5f5;
+  height: 4px;
+  left: 0px;
+  width: 50%;
+  transition: left 0.3s ease-in-out;
+}
+
+
+simple-tab {
+  /*position: absolute;*/
+  width: 100%;
+  display: none;
+}
+
+simple-tab[data-active=true] {
+  display: block;
+}
+
