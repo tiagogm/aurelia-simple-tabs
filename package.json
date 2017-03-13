@@ -6,6 +6,7 @@
     "aurelia",
     "plugin",
     "tabs",
+    "simple-tabs",
     "component"
   ],
   "homepage": "https://github.com/TGMorais/aurelia-simple-tabs",
