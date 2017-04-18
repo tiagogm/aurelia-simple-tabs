@@ -23,9 +23,9 @@
 
 ```html
 <simple-tabs>
-  <simple-tab title="Tab 1">tab 1</simple-tab>
-  <simple-tab title="Tab 2">tab 2</simple-tab>
-  <simple-tab title="Tab 3">tab 3</simple-tab>
+  <simple-tab name="Tab 1">tab 1</simple-tab>
+  <simple-tab name="Tab 2">tab 2</simple-tab>
+  <simple-tab name="Tab 3">tab 3</simple-tab>
 </simple-tabs>
 ```
 
