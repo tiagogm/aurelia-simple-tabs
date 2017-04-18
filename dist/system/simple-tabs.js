@@ -96,7 +96,7 @@ System.register(['aurelia-framework'], function (_export, _context) {
 
             return this.tabsEl.map(function (t) {
               return {
-                title: t.getAttribute('title') || 'tab',
+                name: t.getAttribute('name') || 'tab',
                 css: { width: _this.tabWidth + '%' }
               };
             });

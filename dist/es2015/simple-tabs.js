@@ -42,7 +42,7 @@ export let SimpleTabs = (_dec = inject(DOM.Element), _dec2 = computedFrom('tabsE
   get tabsHeaders() {
     return this.tabsEl.map(t => {
       return {
-        title: t.getAttribute('title') || 'tab',
+        name: t.getAttribute('name') || 'tab',
         css: { width: `${this.tabWidth}%` }
       };
     });

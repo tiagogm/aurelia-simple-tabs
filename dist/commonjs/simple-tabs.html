@@ -6,7 +6,7 @@
       <ul>
         <li class="tab-header" repeat.for="header of tabsHeaders"
             data-id="$index" css.bind="header.css" click.delegate="changeTab($index)" data-active.bind="$index === activeTabIdx">
-          <span title="${header.title}">${header.title}</span>
+          <span title="${header.name}">${header.name}</span>
         </li>
       </ul>
       <div class="slide" css.bind="slideCss"></div>

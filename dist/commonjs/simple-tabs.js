@@ -72,7 +72,7 @@ var SimpleTabs = exports.SimpleTabs = (_dec = (0, _aureliaFramework.inject)(_aur
 
       return this.tabsEl.map(function (t) {
         return {
-          title: t.getAttribute('title') || 'tab',
+          name: t.getAttribute('name') || 'tab',
           css: { width: _this.tabWidth + '%' }
         };
       });

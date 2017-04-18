@@ -91,7 +91,7 @@ define(['exports', 'aurelia-framework'], function (exports, _aureliaFramework) {
 
         return this.tabsEl.map(function (t) {
           return {
-            title: t.getAttribute('title') || 'tab',
+            name: t.getAttribute('name') || 'tab',
             css: { width: _this.tabWidth + '%' }
           };
         });
