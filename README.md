@@ -13,11 +13,13 @@
 ### Use
   
 ```javascript
+  import { PLATFORM } from 'aurelia-pal';
+
   export async function configure(aurelia) {
     //...
     aurelia.use
       //..
-      .plugin('aurelia-simple-tabs')
+      .plugin(PLATFORM.moduleName('aurelia-simple-tabs'))
   }
 ```
 
